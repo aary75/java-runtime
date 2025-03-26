@@ -196,3 +196,20 @@ public static long quickSort(int[] arr){
         System.out.println("Quick sort is faster than merge sort and bubble sort.");
     }
 }
+
+
+// Output:
+// Time taken by bubble sort for 1000 inputs is 6995310
+// Time taken by merge sort for 1000 inputs is 697180
+// Time taken by quick sort for 1000 inputs is 400950
+
+// Time taken by bubble sort for 10000 inputs is 319066955
+// Time taken by merge sort for 10000 inputs is 25322808
+// Time taken by quick sort for 10000 inputs is 1289560
+
+// Time taken by merge sort for 1000000 inputs is 308057396
+// Time taken by quick sort for 1000000 inputs is 890205810
+
+// The result is 
+// For 1000000 inputs, bubble sort is unfeasible
+// Quick sort is faster than merge sort and bubble sort.
